@@ -1,10 +1,9 @@
-using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace CVNetCore.Models
 {
-    // https://comicvine.gamespot.com/api/search/?api_key=API_KEY&query=Birthright&resources=volume&format=json
-    // VolumeQuery myDeserializedClass = JsonConvert.DeserializeObject<VolumeQuery>(myJsonResponse);
+    // https://comicvine.gamespot.com/api/volume/4050-77405/?api_key=API_KEY&format=json
+    // IssuesByVolumeQuery myDeserializedClass = JsonConvert.DeserializeObject<IssuesByVolumeQuery>(myJsonResponse);
 
     public class VolumeQuery
     {
@@ -29,7 +28,7 @@ namespace CVNetCore.Models
         public int StatusCode { get; set; }
 
         [JsonProperty("results")]
-        public IList<Volume> Results { get; set; }
+        public Volume Volume { get; set; }
 
         [JsonProperty("version")]
         public string Version { get; set; }
