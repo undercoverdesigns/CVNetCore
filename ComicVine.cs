@@ -8,31 +8,24 @@ namespace CVNetCore
     {
         #region Properties
 
-        public string ApiKey { get; set; }
-
-        public string SearchAddress { get; private set; }
-
-        public string ComicVineAddress { get; private set; }
+        private readonly string _apiKey;
+        private readonly string _comicVineAddress;
+        private string _searchAddress;
 
         #endregion
 
         #region Constructors
 
-        public ComicVine(string baseAddress = null)
+        public ComicVine(string apiKey, string baseAddress = null)
         {
-            Initialize(baseAddress);
+            _apiKey = apiKey;
+            _comicVineAddress = string.IsNullOrWhiteSpace(baseAddress) ? Strings.COMIC_VINE_API_ADDRESS : baseAddress;
+            _searchAddress = $"{_comicVineAddress}{Strings.COMIC_VINE_SEARCH_CONTROLLER}";
         }
 
         #endregion
 
         #region Methods
-
-        private void Initialize(string baseAddress = null)
-        {
-            ComicVineAddress = string.IsNullOrWhiteSpace(baseAddress) ? Strings.COMIC_VINE_API_ADDRESS : baseAddress;
-
-            SearchAddress = $"{ComicVineAddress}{Strings.COMIC_VINE_SEARCH_CONTROLLER}";
-        }
 
         public List<Volume> GetVolumesByName(string volumeName)
         {
@@ -44,7 +37,7 @@ namespace CVNetCore
             do
             {
                 string query =
-                    $"{ComicVineAddress}volumes/?api_key={ApiKey}&format=json&filter=name:{volumeName}&offset={offset}";
+                    $"{_comicVineAddress}volumes/?api_key={_apiKey}&format=json&filter=name:{volumeName}&offset={offset}";
 
                 VolumeSearchQuery searchQueryResult = Connection.ConnectAndRequestVolume(query);
 
@@ -66,7 +59,7 @@ namespace CVNetCore
         {
             string query = null;
 
-            query = $"{ComicVineAddress}issue/4000-{issueId}/?api_key={ApiKey}&format=json";
+            query = $"{_comicVineAddress}issue/4000-{issueId}/?api_key={_apiKey}&format=json";
 
             IssueQuery issueQuery = Connection.ConnectAndRequestIssue(query);
 
@@ -78,7 +71,7 @@ namespace CVNetCore
         public Issue GetIssue(int volumeId, int issueNumber)
         {
             string query =
-                $"{ComicVineAddress}issues/?api_key={ApiKey}&format=json&filter=issue_number:{issueNumber},volume:{volumeId}";
+                $"{_comicVineAddress}issues/?api_key={_apiKey}&format=json&filter=issue_number:{issueNumber},volume:{volumeId}";
 
             IssueQuery issueQuery = Connection.ConnectAndRequestIssue(query);
 
@@ -87,7 +80,7 @@ namespace CVNetCore
         
         public List<Issue> GetIssuesByVolume(int volumeId)
         {
-            string query  = $"{ComicVineAddress}volume/4050-{volumeId}/?api_key={ApiKey}&format=json";
+            string query  = $"{_comicVineAddress}volume/4050-{volumeId}/?api_key={_apiKey}&format=json";
 
             VolumeQuery volumeQuery = Connection.ConnectAndRequestIssuesByVolume(query);
 
