@@ -50,25 +50,25 @@ namespace CVNetCore.Models
         public string SiteDetailUrl { get; set; }
 
         [JsonProperty("start_year")]
-        public string StartYear { get; set; }
+        public int StartYear { get; set; }
         
         [JsonProperty("characters")]
-        public IList<CharacterCredit> Characters { get; set; }
+        public IList<Credit> Characters { get; set; }
 
         [JsonProperty("concepts")]
-        public IList<ConceptCredit> Concepts { get; set; }
+        public IList<Credit> Concepts { get; set; }
 
         [JsonProperty("issues")]
         public IList<Issue> Issues { get; set; }
 
         [JsonProperty("locations")]
-        public IList<LocationCredit> Locations { get; set; }
+        public IList<Credit> Locations { get; set; }
 
         [JsonProperty("objects")]
         public IList<Credit> Objects { get; set; }
 
         [JsonProperty("people")]
-        public IList<PersonCredit> People { get; set; }
+        public IList<Credit> People { get; set; }
 
         #endregion
     }

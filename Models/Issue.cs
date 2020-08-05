@@ -5,22 +5,30 @@ namespace CVNetCore.Models
 {
     public class Issue
     {
+        #region Fields
+
+        public int issueMonth;
+        public int issueDay;
+        public int issueYear;
+
+        #endregion
+
         #region Properties
 
         [JsonProperty("aliases")]
-        public object Aliases { get; set; }
+        public IList<Credit> Aliases { get; set; }
 
         [JsonProperty("api_detail_url")]
         public string ApiDetailUrl { get; set; }
 
         [JsonProperty("character_credits")]
-        public IList<CharacterCredit> CharacterCredits { get; set; }
+        public IList<Credit> CharacterCredits { get; set; }
 
         [JsonProperty("character_died_in")]
-        public IList<object> CharacterDiedIn { get; set; }
+        public IList<Credit> CharacterDiedIn { get; set; }
 
         [JsonProperty("concept_credits")]
-        public IList<object> ConceptCredits { get; set; }
+        public IList<Credit> ConceptCredits { get; set; }
 
         [JsonProperty("cover_date")]
         public string CoverDate { get; set; }
@@ -32,28 +40,28 @@ namespace CVNetCore.Models
         public string DateLastUpdated { get; set; }
 
         [JsonProperty("deck")]
-        public object Deck { get; set; }
+        public string Deck { get; set; }
 
         [JsonProperty("description")]
         public string Description { get; set; }
 
         [JsonProperty("first_appearance_characters")]
-        public object FirstAppearanceCharacters { get; set; }
+        public IList<Credit> FirstAppearanceCharacters { get; set; }
 
         [JsonProperty("first_appearance_concepts")]
-        public object FirstAppearanceConcepts { get; set; }
+        public IList<Credit> FirstAppearanceConcepts { get; set; }
 
         [JsonProperty("first_appearance_locations")]
-        public object FirstAppearanceLocations { get; set; }
+        public IList<Credit> FirstAppearanceLocations { get; set; }
 
         [JsonProperty("first_appearance_objects")]
-        public object FirstAppearanceObjects { get; set; }
+        public IList<Credit> FirstAppearanceObjects { get; set; }
 
         [JsonProperty("first_appearance_storyarcs")]
-        public object FirstAppearanceStoryarcs { get; set; }
+        public IList<Credit> FirstAppearanceStoryarcs { get; set; }
 
         [JsonProperty("first_appearance_teams")]
-        public object FirstAppearanceTeams { get; set; }
+        public IList<Credit> FirstAppearanceTeams { get; set; }
 
         [JsonProperty("has_staff_review")]
         public HasStaffReview HasStaffReview { get; set; }
@@ -68,16 +76,16 @@ namespace CVNetCore.Models
         public string IssueNumber { get; set; }
 
         [JsonProperty("location_credits")]
-        public IList<LocationCredit> LocationCredits { get; set; }
+        public IList<Credit> LocationCredits { get; set; }
 
         [JsonProperty("name")]
-        public object Name { get; set; }
+        public string Name { get; set; }
 
         [JsonProperty("object_credits")]
-        public IList<object> ObjectCredits { get; set; }
+        public IList<Credit> ObjectCredits { get; set; }
 
         [JsonProperty("person_credits")]
-        public IList<PersonCredit> PersonCredits { get; set; }
+        public IList<Credit> PersonCredits { get; set; }
 
         [JsonProperty("site_detail_url")]
         public string SiteDetailUrl { get; set; }
@@ -86,13 +94,13 @@ namespace CVNetCore.Models
         public string StoreDate { get; set; }
 
         [JsonProperty("story_arc_credits")]
-        public IList<object> StoryArcCredits { get; set; }
+        public IList<Credit> StoryArcCredits { get; set; }
 
         [JsonProperty("team_credits")]
-        public IList<object> TeamCredits { get; set; }
+        public IList<Credit> TeamCredits { get; set; }
 
         [JsonProperty("team_disbanded_in")]
-        public IList<object> TeamDisbandedIn { get; set; }
+        public IList<Credit> TeamDisbandedIn { get; set; }
 
         [JsonProperty("volume")]
         public Volume Volume { get; set; }

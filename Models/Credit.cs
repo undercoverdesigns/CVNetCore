@@ -20,6 +20,9 @@ namespace CVNetCore.Models
 
         [JsonProperty("count")]
         public string Count { get; set; }
+        
+        [JsonProperty("role")]
+        public string Role { get; set; }
 
         #endregion
     }
