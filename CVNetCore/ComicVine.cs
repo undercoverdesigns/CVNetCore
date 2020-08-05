@@ -6,7 +6,7 @@ namespace CVNetCore
 {
     public class ComicVine
     {
-        #region Properties
+        #region Fields
 
         private readonly string _apiKey;
         private readonly string _comicVineAddress;
@@ -26,6 +26,45 @@ namespace CVNetCore
         #endregion
 
         #region Methods
+
+        public Issue GetIssue(int issueId)
+        {
+            string query = null;
+
+            query = $"{_comicVineAddress}issue/4000-{issueId}/?api_key={_apiKey}&format=json";
+
+            IssueQuery issueQuery = Connection.ConnectAndRequestIssue(query);
+
+            return issueQuery.Issue;
+        }
+
+        public Issue GetIssue(int volumeId, int issueNumber)
+        {
+            string query =
+                $"{_comicVineAddress}issues/?api_key={_apiKey}&format=json&filter=issue_number:{issueNumber},volume:{volumeId}";
+
+            IssueQuery issueQuery = Connection.ConnectAndRequestIssue(query);
+
+            return issueQuery.Issue;
+        }
+
+        public List<Issue> GetIssuesByVolume(int volumeId)
+        {
+            string query = $"{_comicVineAddress}volume/4050-{volumeId}/?api_key={_apiKey}&format=json";
+
+            VolumeQuery volumeQuery = Connection.ConnectAndRequestIssuesByVolume(query);
+
+            return volumeQuery.Volume.Issues as List<Issue>;
+        }
+
+        public Volume GetVolumeDetails(int volumeId)
+        {
+            string query = $"{_comicVineAddress}volume/4050-{volumeId}/?api_key={_apiKey}&format=json";
+
+            VolumeQuery volumeQuery = Connection.ConnectAndRequestIssuesByVolume(query);
+
+            return volumeQuery.Volume;
+        }
 
         public List<Volume> GetVolumesByName(string volumeName)
         {
@@ -55,37 +94,6 @@ namespace CVNetCore
             return result;
         }
 
-        public Issue GetIssue(int issueId)
-        {
-            string query = null;
-
-            query = $"{_comicVineAddress}issue/4000-{issueId}/?api_key={_apiKey}&format=json";
-
-            IssueQuery issueQuery = Connection.ConnectAndRequestIssue(query);
-
-            return issueQuery.Issue;
-        }
-
         #endregion
-
-        public Issue GetIssue(int volumeId, int issueNumber)
-        {
-            string query =
-                $"{_comicVineAddress}issues/?api_key={_apiKey}&format=json&filter=issue_number:{issueNumber},volume:{volumeId}";
-
-            IssueQuery issueQuery = Connection.ConnectAndRequestIssue(query);
-
-            return issueQuery.Issue;
-        }
-        
-        public List<Issue> GetIssuesByVolume(int volumeId)
-        {
-            string query  = $"{_comicVineAddress}volume/4050-{volumeId}/?api_key={_apiKey}&format=json";
-
-            VolumeQuery volumeQuery = Connection.ConnectAndRequestIssuesByVolume(query);
-
-            return volumeQuery.Volume.Issues as List<Issue>;
-        }
-
     }
 }

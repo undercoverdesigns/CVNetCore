@@ -7,7 +7,7 @@ using Newtonsoft.Json.Linq;
 
 namespace CVNetCore.Json
 {
-    public static class JsonReadVolume
+    public static class ReadVolume
     {
         #region Methods
 

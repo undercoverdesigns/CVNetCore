@@ -51,7 +51,7 @@ namespace CVNetCore.Models
 
         [JsonProperty("start_year")]
         public int StartYear { get; set; }
-        
+
         [JsonProperty("characters")]
         public IList<Credit> Characters { get; set; }
 

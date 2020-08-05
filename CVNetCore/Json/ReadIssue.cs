@@ -7,7 +7,7 @@ using Newtonsoft.Json.Linq;
 
 namespace CVNetCore.Json
 {
-    public static class JsonReadIssue
+    public static class ReadIssue
     {
         #region Methods
 
@@ -73,7 +73,7 @@ namespace CVNetCore.Json
             JObject jObject = JObject.Parse(jsonData);
 
             string howManyString = jObject["number_of_total_results"]?.ToString();
-            bool found =  int.TryParse(howManyString, out int howManyNumber);
+            bool found = int.TryParse(howManyString, out int howManyNumber);
 
             return howManyNumber <= 0 ? null : Get((JObject) jObject["results"], true);
         }
