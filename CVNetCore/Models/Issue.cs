@@ -30,9 +30,6 @@ namespace CVNetCore.Models
         [JsonProperty("concept_credits")]
         public IList<Credit> ConceptCredits { get; set; }
 
-        [JsonProperty("cover_date")]
-        public string CoverDate { get; set; }
-
         [JsonProperty("date_added")]
         public string DateAdded { get; set; }
 

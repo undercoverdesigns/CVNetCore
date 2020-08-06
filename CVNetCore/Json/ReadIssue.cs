@@ -33,6 +33,12 @@ namespace CVNetCore.Json
             issue.issueMonth = StringUtilities.ExtractMonth(coverDate);
             issue.Name = jsonObject["name"]?.ToString();
 
+            issue.DateAdded = jsonObject["date_added"]?.ToString();
+            issue.DateLastUpdated = jsonObject["date_last_updated"]?.ToString();
+            issue.StoreDate = jsonObject["store_date"].ToString();
+
+            issue.Description = jsonObject["description"]?.ToString();
+
             Volume volume = new Volume();
             if (!string.IsNullOrEmpty(jsonObject["volume"]?.ToString()))
             {
@@ -63,8 +69,7 @@ namespace CVNetCore.Json
 
         private static List<Credit> ParseCredits(IEnumerable<JToken> credits)
         {
-            IList<JToken> jCredits = credits.Children().ToList();
-            return jCredits!.Select(credit => JsonConvert.DeserializeObject<Credit>(credit.ToString()))
+            return credits.Select(credit => JsonConvert.DeserializeObject<Credit>(credit.ToString()))
                 .ToList();
         }
 
