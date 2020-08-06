@@ -1,3 +1,4 @@
+#nullable enable
 using System;
 
 namespace CVNetCore.Utility
@@ -11,9 +12,9 @@ namespace CVNetCore.Utility
         /// </summary>
         /// <param name="date">Date field to parse</param>
         /// <returns>The Month extracted from the Date field if parsed successfully, -1 if parsing failed,</returns>
-        public static int ExtractMonth(string date)
+        public static int ExtractMonth(string? date)
         {
-            if (date.IndexOf("-", StringComparison.Ordinal) <= 0)
+            if (date == null || date.IndexOf("-", StringComparison.Ordinal) <= 0)
             {
                 return -1;
             }
@@ -46,8 +47,13 @@ namespace CVNetCore.Utility
         /// </summary>
         /// <param name="date">Date field to parse</param>
         /// <returns>The Year extracted from the Date field</returns>
-        public static int ExtractYear(string date)
+        public static int ExtractYear(string? date)
         {
+            if (date == null)
+            {
+                return -1;
+            }
+
             string year = string.Empty;
 
             if (date.IndexOf("-", StringComparison.Ordinal) > 0)
@@ -80,7 +86,7 @@ namespace CVNetCore.Utility
         /// </summary>
         /// <param name="value">String to parse</param>
         /// <returns>Value of the field if parsing successful, -1 if it failed</returns>
-        public static float TryToParseFloat(string value)
+        public static float TryToParseFloat(string? value)
         {
             // bool result = float.TryParse(value.Replace(".", ","), out float number);
             bool result = float.TryParse(value, out float number);
