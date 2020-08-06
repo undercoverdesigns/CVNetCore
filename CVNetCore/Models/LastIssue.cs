@@ -16,7 +16,7 @@ namespace CVNetCore.Models
         public string Name { get; set; }
 
         [JsonProperty("issue_number")]
-        public string IssueNumber { get; set; }
+        public float IssueNumber { get; set; }
 
         #endregion
     }
