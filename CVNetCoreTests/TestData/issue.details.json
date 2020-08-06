@@ -1,0 +1,187 @@
+{
+    "error": "OK",
+    "limit": 1,
+    "offset": 0,
+    "number_of_page_results": 1,
+    "number_of_total_results": 1,
+    "status_code": 1,
+    "results": {
+        "aliases": null,
+        "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-467608/",
+        "character_credits": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109322/",
+                "id": 109322,
+                "name": "Aaron Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/aaron-rhodes/4005-109322/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109318/",
+                "id": 109318,
+                "name": "Ansari",
+                "site_detail_url": "https://comicvine.gamespot.com/ansari/4005-109318/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109320/",
+                "id": 109320,
+                "name": "Brennan Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/brennan-rhodes/4005-109320/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109315/",
+                "id": 109315,
+                "name": "God King Lore",
+                "site_detail_url": "https://comicvine.gamespot.com/god-king-lore/4005-109315/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109323/",
+                "id": 109323,
+                "name": "Michael Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/michael-rhodes/4005-109323/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109319/",
+                "id": 109319,
+                "name": "Officer Brooks",
+                "site_detail_url": "https://comicvine.gamespot.com/officer-brooks/4005-109319/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109324/",
+                "id": 109324,
+                "name": "Rook",
+                "site_detail_url": "https://comicvine.gamespot.com/rook/4005-109324/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109317/",
+                "id": 109317,
+                "name": "Rya",
+                "site_detail_url": "https://comicvine.gamespot.com/rya/4005-109317/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109316/",
+                "id": 109316,
+                "name": "Shavo",
+                "site_detail_url": "https://comicvine.gamespot.com/shavo/4005-109316/"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109321/",
+                "id": 109321,
+                "name": "Wendy Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/wendy-rhodes/4005-109321/"
+            }
+        ],
+        "character_died_in": [],
+        "concept_credits": [],
+        "cover_date": "2014-10-31",
+        "date_added": "2014-10-06 20:58:41",
+        "date_last_updated": "2016-03-27 10:18:12",
+        "deck": null,
+        "description": "<p><em>For the Rhodes family, losing their son was the most devastating thing that could've ever occurred\u2026 but it couldn't prepare them for what happened when he returned. Skybound's newest original series turns fantasy into reality in this EXTRA-SIZED FIRST ISSUE for just $2.99, by creator/writer JOSH WILLIAMSON (GHOSTED, NAILBITER) and artist ANDREI BRESSAN.</em></p>",
+        "first_appearance_characters": null,
+        "first_appearance_concepts": null,
+        "first_appearance_locations": null,
+        "first_appearance_objects": null,
+        "first_appearance_storyarcs": null,
+        "first_appearance_teams": null,
+        "has_staff_review": {
+            "api_detail_url": "https://comicvine.gamespot.com/api/review/1900-3520/",
+            "id": 3520,
+            "name": "Birthright #1 Review",
+            "site_detail_url": "https://comicvine.gamespot.com/reviews/birthright-1/1900-3520/"
+        },
+        "id": 467608,
+        "image": {
+            "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/4150487-01.jpg",
+            "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/4150487-01.jpg",
+            "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/4150487-01.jpg",
+            "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/4150487-01.jpg",
+            "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/4150487-01.jpg",
+            "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/4150487-01.jpg",
+            "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/4150487-01.jpg",
+            "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/4150487-01.jpg",
+            "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/4150487-01.jpg",
+            "image_tags": "All Images"
+        },
+        "issue_number": "1",
+        "location_credits": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/location/4020-59910/",
+                "id": 59910,
+                "name": "Terrenos",
+                "site_detail_url": "https://comicvine.gamespot.com/terrenos/4020-59910/"
+            }
+        ],
+        "name": null,
+        "object_credits": [],
+        "person_credits": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56351/",
+                "id": 56351,
+                "name": "Adriano Lucas",
+                "site_detail_url": "https://comicvine.gamespot.com/adriano-lucas/4040-56351/",
+                "role": "colorist"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-62091/",
+                "id": 62091,
+                "name": "Andrei Bressan",
+                "site_detail_url": "https://comicvine.gamespot.com/andrei-bressan/4040-62091/",
+                "role": "artist, cover"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-72689/",
+                "id": 72689,
+                "name": "Helen Leigh",
+                "site_detail_url": "https://comicvine.gamespot.com/helen-leigh/4040-72689/",
+                "role": "editor"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56513/",
+                "id": 56513,
+                "name": "Joshua Williamson",
+                "site_detail_url": "https://comicvine.gamespot.com/joshua-williamson/4040-56513/",
+                "role": "writer"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-15688/",
+                "id": 15688,
+                "name": "Marc Silvestri",
+                "site_detail_url": "https://comicvine.gamespot.com/marc-silvestri/4040-15688/",
+                "role": "cover"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-41785/",
+                "id": 41785,
+                "name": "Pat Brosseau",
+                "site_detail_url": "https://comicvine.gamespot.com/pat-brosseau/4040-41785/",
+                "role": "letterer"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-61982/",
+                "id": 61982,
+                "name": "Sean Mackiewicz",
+                "site_detail_url": "https://comicvine.gamespot.com/sean-mackiewicz/4040-61982/",
+                "role": "editor"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56887/",
+                "id": 56887,
+                "name": "Sunny Gho",
+                "site_detail_url": "https://comicvine.gamespot.com/sunny-gho/4040-56887/",
+                "role": "cover"
+            }
+        ],
+        "site_detail_url": "https://comicvine.gamespot.com/birthright-1/4000-467608/",
+        "store_date": "2014-10-08",
+        "story_arc_credits": [],
+        "team_credits": [],
+        "team_disbanded_in": [],
+        "volume": {
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-77405/",
+            "id": 77405,
+            "name": "Birthright",
+            "site_detail_url": "https://comicvine.gamespot.com/birthright/4050-77405/"
+        }
+    },
+    "version": "1.0"
+}

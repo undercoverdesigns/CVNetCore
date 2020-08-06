@@ -1,0 +1,770 @@
+{
+    "error": "OK",
+    "limit": 1,
+    "offset": 0,
+    "number_of_page_results": 1,
+    "number_of_total_results": 1,
+    "status_code": 1,
+    "results": {
+        "aliases": null,
+        "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-77405/",
+        "characters": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109323/",
+                "id": 109323,
+                "name": "Michael Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/michael-rhodes/4005-109323/",
+                "count": "25"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109317/",
+                "id": 109317,
+                "name": "Rya",
+                "site_detail_url": "https://comicvine.gamespot.com/rya/4005-109317/",
+                "count": "12"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109320/",
+                "id": 109320,
+                "name": "Brennan Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/brennan-rhodes/4005-109320/",
+                "count": "12"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109321/",
+                "id": 109321,
+                "name": "Wendy Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/wendy-rhodes/4005-109321/",
+                "count": "9"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109322/",
+                "id": 109322,
+                "name": "Aaron Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/aaron-rhodes/4005-109322/",
+                "count": "8"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109319/",
+                "id": 109319,
+                "name": "Officer Brooks",
+                "site_detail_url": "https://comicvine.gamespot.com/officer-brooks/4005-109319/",
+                "count": "5"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109315/",
+                "id": 109315,
+                "name": "God King Lore",
+                "site_detail_url": "https://comicvine.gamespot.com/god-king-lore/4005-109315/",
+                "count": "3"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109316/",
+                "id": 109316,
+                "name": "Shavo",
+                "site_detail_url": "https://comicvine.gamespot.com/shavo/4005-109316/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109318/",
+                "id": 109318,
+                "name": "Ansari",
+                "site_detail_url": "https://comicvine.gamespot.com/ansari/4005-109318/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109324/",
+                "id": 109324,
+                "name": "Rook",
+                "site_detail_url": "https://comicvine.gamespot.com/rook/4005-109324/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-127603/",
+                "id": 127603,
+                "name": "Kallista",
+                "site_detail_url": "https://comicvine.gamespot.com/kallista/4005-127603/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-109360/",
+                "id": 109360,
+                "name": "Karsudan",
+                "site_detail_url": "https://comicvine.gamespot.com/karsudan/4005-109360/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/character/4005-127604/",
+                "id": 127604,
+                "name": "Moreck",
+                "site_detail_url": "https://comicvine.gamespot.com/moreck/4005-127604/",
+                "count": "1"
+            }
+        ],
+        "concepts": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-57349/",
+                "id": 57349,
+                "name": "Variant Cover",
+                "site_detail_url": "https://comicvine.gamespot.com/variant-cover/4015-57349/",
+                "count": "3"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-43734/",
+                "id": 43734,
+                "name": "Homage Covers",
+                "site_detail_url": "https://comicvine.gamespot.com/homage-covers/4015-43734/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-56667/",
+                "id": 56667,
+                "name": "San Diego Comic-Con Exclusive Variant Cover",
+                "site_detail_url": "https://comicvine.gamespot.com/san-diego-comic-con-exclusive-variant-cover/4015-56667/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-56814/",
+                "id": 56814,
+                "name": "Hero Initiative Exclusive Variant Cover",
+                "site_detail_url": "https://comicvine.gamespot.com/hero-initiative-exclusive-variant-cover/4015-56814/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-57234/",
+                "id": 57234,
+                "name": "Negan Kills... Variant Cover",
+                "site_detail_url": "https://comicvine.gamespot.com/negan-kills-variant-cover/4015-57234/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/concept/4015-57274/",
+                "id": 57274,
+                "name": "The Walking Dead Tribute Variant Cover",
+                "site_detail_url": "https://comicvine.gamespot.com/the-walking-dead-tribute-variant-cover/4015-57274/",
+                "count": "1"
+            }
+        ],
+        "count_of_issues": 45,
+        "date_added": "2014-10-06 07:11:34",
+        "date_last_updated": "2019-07-03 08:00:14",
+        "deck": null,
+        "description": "<figure data-align=\"right\" data-size=\"small\" data-img-src=\"https://static.comicvine.com/uploads/original/6/67663/6640908-7416313545-26106.jpg\" data-ref-id=\"1300-6640908\" data-ratio=\"1\" data-width=\"600\" data-embed-type=\"image\" style=\"width: 600px\"><a class=\"fluid-height\" style=\"padding-bottom:100.0%\" href=\"https://static.comicvine.com/uploads/original/6/67663/6640908-7416313545-26106.jpg\" data-ref-id=\"1300-6640908\"><img alt=\"No Caption Provided\" src=\"https://comicvine1.cbsistatic.com/uploads/original/6/67663/6640908-7416313545-26106.jpg\" srcset=\"https://comicvine1.cbsistatic.com/uploads/original/6/67663/6640908-7416313545-26106.jpg 600w\" sizes=\"(max-width: 600px) 100vw, 600px\" data-width=\"600\"></a></figure><p>Adventure series from writer <a href=\"/joshua-williamson/4040-56513/\" data-ref-id=\"4040-56513\">Joshua Williamson</a> and artist <a href=\"/andrei-bressan/4040-62091/\" data-ref-id=\"4040-62091\">Andrei Bressan</a>.</p><h4>Collected Editions</h4><ul><li><a href=\"/birthright-homecoming/4050-80468/\" data-ref-id=\"4050-80468\">Birthright: Homecoming</a> (#1-5)</li><li><a href=\"/birthright-call-to-adventure/4050-84574/\" data-ref-id=\"4050-84574\">Birthright: Call To Adventure</a> (#6-10)</li><li><a href=\"https://comicvine.gamespot.com/birthright-allies-and-enemies/4050-90399/\" data-ref-id=\"4050-90399\">Birthright: Allies and Enemies</a> (#11-15)</li><li><a href=\"https://comicvine.gamespot.com/birthright-family-history/4050-96650/\" data-ref-id=\"4050-96650\">Birthright: Family History</a> (#16-20)</li><li><a href=\"https://comicvine.gamespot.com/birthright-belly-of-the-beast/4050-102741/\" data-ref-id=\"4050-102741\">Birthright: Belly of the Beast</a> (#21-25)</li><li><a href=\"/birthright-fatherhood/4050-109596/\" data-ref-id=\"4050-109596\">Birthright: Fatherhood</a> (#26-30)</li><li><a href=\"https://comicvine.gamespot.com/birthright-blood-brothers/4050-117048/\">Birthright: Blood Brothers</a> (#31-35)</li></ul>",
+        "first_issue": {
+            "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-467608/",
+            "id": 467608,
+            "name": null,
+            "issue_number": "1"
+        },
+        "id": 77405,
+        "image": {
+            "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/4150487-01.jpg",
+            "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/4150487-01.jpg",
+            "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/4150487-01.jpg",
+            "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/4150487-01.jpg",
+            "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/4150487-01.jpg",
+            "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/4150487-01.jpg",
+            "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/4150487-01.jpg",
+            "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/4150487-01.jpg",
+            "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/4150487-01.jpg",
+            "image_tags": "All Images"
+        },
+        "issues": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-467608/",
+                "id": 467608,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-1/4000-467608/",
+                "issue_number": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-469438/",
+                "id": 469438,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-2/4000-469438/",
+                "issue_number": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-471927/",
+                "id": 471927,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-3/4000-471927/",
+                "issue_number": "3"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-475419/",
+                "id": 475419,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-4/4000-475419/",
+                "issue_number": "4"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-478574/",
+                "id": 478574,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-5/4000-478574/",
+                "issue_number": "5"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-485548/",
+                "id": 485548,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-6/4000-485548/",
+                "issue_number": "6"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-488693/",
+                "id": 488693,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-7/4000-488693/",
+                "issue_number": "7"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-491553/",
+                "id": 491553,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-8/4000-491553/",
+                "issue_number": "8"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-495839/",
+                "id": 495839,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-9/4000-495839/",
+                "issue_number": "9"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-497988/",
+                "id": 497988,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-10/4000-497988/",
+                "issue_number": "10"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-505559/",
+                "id": 505559,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-11/4000-505559/",
+                "issue_number": "11"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-507805/",
+                "id": 507805,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-12/4000-507805/",
+                "issue_number": "12"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-510981/",
+                "id": 510981,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-13/4000-510981/",
+                "issue_number": "13"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-516109/",
+                "id": 516109,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-14/4000-516109/",
+                "issue_number": "14"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-521350/",
+                "id": 521350,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-15/4000-521350/",
+                "issue_number": "15"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-534306/",
+                "id": 534306,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-16/4000-534306/",
+                "issue_number": "16"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-539267/",
+                "id": 539267,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-17/4000-539267/",
+                "issue_number": "17"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-543767/",
+                "id": 543767,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-18/4000-543767/",
+                "issue_number": "18"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-549538/",
+                "id": 549538,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-19/4000-549538/",
+                "issue_number": "19"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-555553/",
+                "id": 555553,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-20/4000-555553/",
+                "issue_number": "20"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-575896/",
+                "id": 575896,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-21/4000-575896/",
+                "issue_number": "21"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-580776/",
+                "id": 580776,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-22/4000-580776/",
+                "issue_number": "22"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-588588/",
+                "id": 588588,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-23/4000-588588/",
+                "issue_number": "23"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-595715/",
+                "id": 595715,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-24/4000-595715/",
+                "issue_number": "24"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-601820/",
+                "id": 601820,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-25/4000-601820/",
+                "issue_number": "25"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-621638/",
+                "id": 621638,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-26/4000-621638/",
+                "issue_number": "26"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-628612/",
+                "id": 628612,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-27/4000-628612/",
+                "issue_number": "27"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-636408/",
+                "id": 636408,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-28/4000-636408/",
+                "issue_number": "28"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-650932/",
+                "id": 650932,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-29/4000-650932/",
+                "issue_number": "29"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-660683/",
+                "id": 660683,
+                "name": "",
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-30/4000-660683/",
+                "issue_number": "30"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-684748/",
+                "id": 684748,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-31/4000-684748/",
+                "issue_number": "31"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-688144/",
+                "id": 688144,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-32/4000-688144/",
+                "issue_number": "32"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-691934/",
+                "id": 691934,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-33/4000-691934/",
+                "issue_number": "33"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-694812/",
+                "id": 694812,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-34/4000-694812/",
+                "issue_number": "34"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-696800/",
+                "id": 696800,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-35/4000-696800/",
+                "issue_number": "35"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-710597/",
+                "id": 710597,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-36/4000-710597/",
+                "issue_number": "36"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-712961/",
+                "id": 712961,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-37/4000-712961/",
+                "issue_number": "37"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-715181/",
+                "id": 715181,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-38/4000-715181/",
+                "issue_number": "38"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-718002/",
+                "id": 718002,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-39/4000-718002/",
+                "issue_number": "39"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-721065/",
+                "id": 721065,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-40/4000-721065/",
+                "issue_number": "40"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-736391/",
+                "id": 736391,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-41/4000-736391/",
+                "issue_number": "41"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-739520/",
+                "id": 739520,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-42/4000-739520/",
+                "issue_number": "42"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-762370/",
+                "id": 762370,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-43/4000-762370/",
+                "issue_number": "43"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-768614/",
+                "id": 768614,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-44/4000-768614/",
+                "issue_number": "44"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-781655/",
+                "id": 781655,
+                "name": null,
+                "site_detail_url": "https://comicvine.gamespot.com/birthright-45/4000-781655/",
+                "issue_number": "45"
+            }
+        ],
+        "last_issue": {
+            "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-781655/",
+            "id": 781655,
+            "name": null,
+            "issue_number": "45"
+        },
+        "locations": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/location/4020-59910/",
+                "id": 59910,
+                "name": "Terrenos",
+                "site_detail_url": "https://comicvine.gamespot.com/terrenos/4020-59910/",
+                "count": "3"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/location/4020-57183/",
+                "id": 57183,
+                "name": "Earth",
+                "site_detail_url": "https://comicvine.gamespot.com/earth/4020-57183/",
+                "count": "2"
+            }
+        ],
+        "name": "Birthright",
+        "objects": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109323/",
+                "id": 109323,
+                "name": "Michael Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/michael-rhodes/4005-109323/",
+                "count": "25"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109317/",
+                "id": 109317,
+                "name": "Rya",
+                "site_detail_url": "https://comicvine.gamespot.com/rya/4005-109317/",
+                "count": "12"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109320/",
+                "id": 109320,
+                "name": "Brennan Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/brennan-rhodes/4005-109320/",
+                "count": "12"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109321/",
+                "id": 109321,
+                "name": "Wendy Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/wendy-rhodes/4005-109321/",
+                "count": "9"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109322/",
+                "id": 109322,
+                "name": "Aaron Rhodes",
+                "site_detail_url": "https://comicvine.gamespot.com/aaron-rhodes/4005-109322/",
+                "count": "8"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109319/",
+                "id": 109319,
+                "name": "Officer Brooks",
+                "site_detail_url": "https://comicvine.gamespot.com/officer-brooks/4005-109319/",
+                "count": "5"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109315/",
+                "id": 109315,
+                "name": "God King Lore",
+                "site_detail_url": "https://comicvine.gamespot.com/god-king-lore/4005-109315/",
+                "count": "3"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109316/",
+                "id": 109316,
+                "name": "Shavo",
+                "site_detail_url": "https://comicvine.gamespot.com/shavo/4005-109316/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109318/",
+                "id": 109318,
+                "name": "Ansari",
+                "site_detail_url": "https://comicvine.gamespot.com/ansari/4005-109318/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109324/",
+                "id": 109324,
+                "name": "Rook",
+                "site_detail_url": "https://comicvine.gamespot.com/rook/4005-109324/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-127603/",
+                "id": 127603,
+                "name": "Kallista",
+                "site_detail_url": "https://comicvine.gamespot.com/kallista/4005-127603/",
+                "count": "2"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-109360/",
+                "id": 109360,
+                "name": "Karsudan",
+                "site_detail_url": "https://comicvine.gamespot.com/karsudan/4005-109360/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/object/4005-127604/",
+                "id": 127604,
+                "name": "Moreck",
+                "site_detail_url": "https://comicvine.gamespot.com/moreck/4005-127604/",
+                "count": "1"
+            }
+        ],
+        "people": [
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56351/",
+                "id": 56351,
+                "name": "Adriano Lucas",
+                "site_detail_url": "https://comicvine.gamespot.com/adriano-lucas/4040-56351/",
+                "count": "45"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-62091/",
+                "id": 62091,
+                "name": "Andrei Bressan",
+                "site_detail_url": "https://comicvine.gamespot.com/andrei-bressan/4040-62091/",
+                "count": "45"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56513/",
+                "id": 56513,
+                "name": "Joshua Williamson",
+                "site_detail_url": "https://comicvine.gamespot.com/joshua-williamson/4040-56513/",
+                "count": "44"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-41785/",
+                "id": 41785,
+                "name": "Pat Brosseau",
+                "site_detail_url": "https://comicvine.gamespot.com/pat-brosseau/4040-41785/",
+                "count": "22"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-61982/",
+                "id": 61982,
+                "name": "Sean Mackiewicz",
+                "site_detail_url": "https://comicvine.gamespot.com/sean-mackiewicz/4040-61982/",
+                "count": "22"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-1693/",
+                "id": 1693,
+                "name": "Rian Hughes",
+                "site_detail_url": "https://comicvine.gamespot.com/rian-hughes/4040-1693/",
+                "count": "15"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-74692/",
+                "id": 74692,
+                "name": "Robbie Biederman",
+                "site_detail_url": "https://comicvine.gamespot.com/robbie-biederman/4040-74692/",
+                "count": "10"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-102930/",
+                "id": 102930,
+                "name": "Carina Taylor",
+                "site_detail_url": "https://comicvine.gamespot.com/carina-taylor/4040-102930/",
+                "count": "10"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-105278/",
+                "id": 105278,
+                "name": "Kate Caudill",
+                "site_detail_url": "https://comicvine.gamespot.com/kate-caudill/4040-105278/",
+                "count": "8"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-72689/",
+                "id": 72689,
+                "name": "Helen Leigh",
+                "site_detail_url": "https://comicvine.gamespot.com/helen-leigh/4040-72689/",
+                "count": "5"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-84503/",
+                "id": 84503,
+                "name": "Mike Williamson",
+                "site_detail_url": "https://comicvine.gamespot.com/mike-williamson/4040-84503/",
+                "count": "3"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-89316/",
+                "id": 89316,
+                "name": "Arielle Basich",
+                "site_detail_url": "https://comicvine.gamespot.com/arielle-basich/4040-89316/",
+                "count": "3"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-15688/",
+                "id": 15688,
+                "name": "Marc Silvestri",
+                "site_detail_url": "https://comicvine.gamespot.com/marc-silvestri/4040-15688/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-41789/",
+                "id": 41789,
+                "name": "Nick Dragotta",
+                "site_detail_url": "https://comicvine.gamespot.com/nick-dragotta/4040-41789/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-56887/",
+                "id": 56887,
+                "name": "Sunny Gho",
+                "site_detail_url": "https://comicvine.gamespot.com/sunny-gho/4040-56887/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-58416/",
+                "id": 58416,
+                "name": "Ivan Plascencia",
+                "site_detail_url": "https://comicvine.gamespot.com/ivan-plascencia/4040-58416/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-58609/",
+                "id": 58609,
+                "name": "James Stokoe",
+                "site_detail_url": "https://comicvine.gamespot.com/james-stokoe/4040-58609/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-58964/",
+                "id": 58964,
+                "name": "James Harren",
+                "site_detail_url": "https://comicvine.gamespot.com/james-harren/4040-58964/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-59105/",
+                "id": 59105,
+                "name": "Lukas Ketner",
+                "site_detail_url": "https://comicvine.gamespot.com/lukas-ketner/4040-59105/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-66403/",
+                "id": 66403,
+                "name": "Ben Dewey",
+                "site_detail_url": "https://comicvine.gamespot.com/ben-dewey/4040-66403/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-75741/",
+                "id": 75741,
+                "name": "Daniel Warren Johnson",
+                "site_detail_url": "https://comicvine.gamespot.com/daniel-warren-johnson/4040-75741/",
+                "count": "1"
+            },
+            {
+                "api_detail_url": "https://comicvine.gamespot.com/api/person/4040-78734/",
+                "id": 78734,
+                "name": "Lorenzo De Felici ",
+                "site_detail_url": "https://comicvine.gamespot.com/lorenzo-de-felici/4040-78734/",
+                "count": "1"
+            }
+        ],
+        "publisher": {
+            "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+            "id": 2861,
+            "name": "Skybound"
+        },
+        "site_detail_url": "https://comicvine.gamespot.com/birthright/4050-77405/",
+        "start_year": "2014"
+    },
+    "version": "1.0"
+}

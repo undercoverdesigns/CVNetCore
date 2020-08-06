@@ -1,0 +1,767 @@
+{
+    "error": "OK",
+    "limit": 100,
+    "offset": 0,
+    "number_of_page_results": 18,
+    "number_of_total_results": 18,
+    "status_code": 1,
+    "results": [
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-18926/",
+            "count_of_issues": 12,
+            "date_added": "2008-06-06 11:08:36",
+            "date_last_updated": "2018-06-08 04:06:54",
+            "deck": null,
+            "description": "<p>Superman: Birthright is a twelve-issue comic book limited series published by DC Comics in 2003 - 2004, written by <a href=\"/mark-waid/4040-40724/\" data-ref-id=\"4040-40724\">Mark Waid</a> and drawn by <a href=\"/leinil-francis-yu/4040-6314/\" data-ref-id=\"4040-6314\">Leinil Francis Yu.</a></p><p>Originally, this series was to be <a href=\"/superman/4005-1807/\" data-ref-id=\"4005-1807\">Superman's</a> new origin story, updating it for more modern readers. However, after the events of <a href=\"/infinite-crisis/4045-40765/\" data-ref-id=\"4045-40765\">Infinite Crisis,</a> both this series and 1986's <a href=\"/the-man-of-steel/4050-3611/\" data-ref-id=\"4050-3611\">The Man of Steel</a> miniseries, by <a href=\"/john-byrne/4040-1770/\" data-ref-id=\"4040-1770\">John Byrne</a>, have been removed from continuity in favor of a new origin story that has yet to be told. A portion of the new origin appeared in <a href=\"/action-comics/4050-18005/\" data-ref-id=\"4050-18005\">Action Comics</a> #850, which showed Kal-El being born moments before going into his ship and being sent to Earth.</p><p>The story mostly follows Superman's early years, including meeting <a href=\"/lois-lane/4005-1808/\" data-ref-id=\"4005-1808\">Lois Lane</a> and his first confrontation with <a href=\"/lex-luthor/4005-41952/\" data-ref-id=\"4005-41952\">Lex Luthor</a> in <a href=\"/metropolis/4020-41184/\" data-ref-id=\"4020-41184\">Metropolis</a>. In the series, Luthor combines <a href=\"/kryptonite/4055-32213/\" data-ref-id=\"4055-32213\">kryptonite</a> with advanced technology to discover the history of <a href=\"/krypton/4020-30670/\" data-ref-id=\"4020-30670\">Krypton</a>, then uses that knowledge to fake an alien invasion and cause the populace to fear Superman.</p><p>Collected in <a href=\"/superman-birthright/4050-40851/\" data-ref-id=\"4050-40851\">Superman: Birthright</a>.</p><p>Translated into <a href=\"https://comicvine.gamespot.com/superman-birthright/4050-61649/\" data-ref-id=\"4050-61649\">German</a>.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-111922/",
+                "id": 111922,
+                "name": "In the Beginning...",
+                "issue_number": "1"
+            },
+            "id": 18926,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/0/7015/157302-18926-111922-1-superman-birthright.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-112162/",
+                "id": 112162,
+                "name": "The Hero Emerges",
+                "issue_number": "12"
+            },
+            "name": "Superman: Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-10/",
+                "id": 10,
+                "name": "DC Comics"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/superman-birthright/4050-18926/",
+            "start_year": "2003"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-24506/",
+            "count_of_issues": 1,
+            "date_added": "2008-12-09 15:35:50",
+            "date_last_updated": "2009-01-08 15:16:38",
+            "deck": null,
+            "description": null,
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-145267/",
+                "id": 145267,
+                "name": null,
+                "issue_number": "1"
+            },
+            "id": 24506,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/2/26751/637114-birthright1.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/2/26751/637114-birthright1.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/2/26751/637114-birthright1.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/2/26751/637114-birthright1.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/2/26751/637114-birthright1.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/2/26751/637114-birthright1.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/2/26751/637114-birthright1.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/2/26751/637114-birthright1.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/2/26751/637114-birthright1.jpg",
+                "image_tags": "All Images,Indipendant Comics"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-145267/",
+                "id": 145267,
+                "name": null,
+                "issue_number": "1"
+            },
+            "name": "Birthright: The Serpent's Eye",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-1934/",
+                "id": 1934,
+                "name": "TSR"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-the-serpents-eye/4050-24506/",
+            "start_year": "1996"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-40851/",
+            "count_of_issues": 1,
+            "date_added": "2011-06-20 21:00:29",
+            "date_last_updated": "2013-10-10 21:49:27",
+            "deck": "Superman",
+            "description": "<p>Collects <a data-ref-id=\"4050-18926\" href=\"/superman-birthright/4050-18926/\" slug=\"superman-birthright\">Superman: Birthright</a>, a new Superman origin story written by Mark Waid.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-275382/",
+                "id": 275382,
+                "name": "TPB",
+                "issue_number": "1"
+            },
+            "id": 40851,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/3368495-01.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/3368495-01.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/3368495-01.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/3368495-01.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/3368495-01.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/3368495-01.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/3368495-01.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/3368495-01.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/3368495-01.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-275382/",
+                "id": 275382,
+                "name": "TPB",
+                "issue_number": "1"
+            },
+            "name": "Superman: Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-10/",
+                "id": 10,
+                "name": "DC Comics"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/superman-birthright/4050-40851/",
+            "start_year": "2005"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-48862/",
+            "count_of_issues": 1,
+            "date_added": "2012-05-11 23:40:27",
+            "date_last_updated": "2012-05-11 23:42:26",
+            "deck": null,
+            "description": "<p>.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-335600/",
+                "id": 335600,
+                "name": null,
+                "issue_number": "1"
+            },
+            "id": 48862,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/0/3125/2339940-bir1.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/0/3125/2339940-bir1.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/0/3125/2339940-bir1.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/0/3125/2339940-bir1.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/0/3125/2339940-bir1.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/0/3125/2339940-bir1.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/0/3125/2339940-bir1.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/0/3125/2339940-bir1.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/0/3125/2339940-bir1.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-335600/",
+                "id": 335600,
+                "name": null,
+                "issue_number": "1"
+            },
+            "name": "Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-309/",
+                "id": 309,
+                "name": "Fantagraphics"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright/4050-48862/",
+            "start_year": "1990"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-61649/",
+            "count_of_issues": 6,
+            "date_added": "2013-05-18 06:50:35",
+            "date_last_updated": "2018-06-08 04:22:37",
+            "deck": null,
+            "description": "<p>German translation of <a href=\"/superman-birthright/4050-18926/\" data-ref-id=\"4050-18926\">Superman: Birthright</a>.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-403964/",
+                "id": 403964,
+                "name": null,
+                "issue_number": "1"
+            },
+            "id": 61649,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/11/119711/3052398-batmandieneuenabenteuer6247.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-403969/",
+                "id": 403969,
+                "name": null,
+                "issue_number": "6"
+            },
+            "name": "Superman: Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2350/",
+                "id": 2350,
+                "name": "Panini Comics"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/superman-birthright/4050-61649/",
+            "start_year": "2004"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-77405/",
+            "count_of_issues": 45,
+            "date_added": "2014-10-06 07:11:34",
+            "date_last_updated": "2019-07-03 08:00:14",
+            "deck": null,
+            "description": "<figure data-align=\"right\" data-size=\"small\" data-img-src=\"https://static.comicvine.com/uploads/original/6/67663/6640908-7416313545-26106.jpg\" data-ref-id=\"1300-6640908\" data-ratio=\"1\" data-width=\"600\" data-embed-type=\"image\" style=\"width: 600px\"><a class=\"fluid-height\" style=\"padding-bottom:100.0%\" href=\"https://static.comicvine.com/uploads/original/6/67663/6640908-7416313545-26106.jpg\" data-ref-id=\"1300-6640908\"><img alt=\"No Caption Provided\" src=\"https://comicvine1.cbsistatic.com/uploads/original/6/67663/6640908-7416313545-26106.jpg\" srcset=\"https://comicvine1.cbsistatic.com/uploads/original/6/67663/6640908-7416313545-26106.jpg 600w\" sizes=\"(max-width: 600px) 100vw, 600px\" data-width=\"600\"></a></figure><p>Adventure series from writer <a href=\"/joshua-williamson/4040-56513/\" data-ref-id=\"4040-56513\">Joshua Williamson</a> and artist <a href=\"/andrei-bressan/4040-62091/\" data-ref-id=\"4040-62091\">Andrei Bressan</a>.</p><h4>Collected Editions</h4><ul><li><a href=\"/birthright-homecoming/4050-80468/\" data-ref-id=\"4050-80468\">Birthright: Homecoming</a> (#1-5)</li><li><a href=\"/birthright-call-to-adventure/4050-84574/\" data-ref-id=\"4050-84574\">Birthright: Call To Adventure</a> (#6-10)</li><li><a href=\"https://comicvine.gamespot.com/birthright-allies-and-enemies/4050-90399/\" data-ref-id=\"4050-90399\">Birthright: Allies and Enemies</a> (#11-15)</li><li><a href=\"https://comicvine.gamespot.com/birthright-family-history/4050-96650/\" data-ref-id=\"4050-96650\">Birthright: Family History</a> (#16-20)</li><li><a href=\"https://comicvine.gamespot.com/birthright-belly-of-the-beast/4050-102741/\" data-ref-id=\"4050-102741\">Birthright: Belly of the Beast</a> (#21-25)</li><li><a href=\"/birthright-fatherhood/4050-109596/\" data-ref-id=\"4050-109596\">Birthright: Fatherhood</a> (#26-30)</li><li><a href=\"https://comicvine.gamespot.com/birthright-blood-brothers/4050-117048/\">Birthright: Blood Brothers</a> (#31-35)</li></ul>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-467608/",
+                "id": 467608,
+                "name": null,
+                "issue_number": "1"
+            },
+            "id": 77405,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/4150487-01.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/4150487-01.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/4150487-01.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/4150487-01.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/4150487-01.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/4150487-01.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/4150487-01.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/4150487-01.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/4150487-01.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-781655/",
+                "id": 781655,
+                "name": null,
+                "issue_number": "45"
+            },
+            "name": "Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright/4050-77405/",
+            "start_year": "2014"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-80468/",
+            "count_of_issues": 1,
+            "date_added": "2015-03-02 23:06:52",
+            "date_last_updated": "2015-03-07 09:26:33",
+            "deck": null,
+            "description": "<p>Trade paperback collecting <a href=\"/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a>.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-481644/",
+                "id": 481644,
+                "name": "Volume One",
+                "issue_number": "1"
+            },
+            "id": 80468,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/4435410-01.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/4435410-01.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/4435410-01.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/4435410-01.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/4435410-01.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/4435410-01.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/4435410-01.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/4435410-01.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/4435410-01.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-481644/",
+                "id": 481644,
+                "name": "Volume One",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Homecoming",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-homecoming/4050-80468/",
+            "start_year": "2015"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-84574/",
+            "count_of_issues": 1,
+            "date_added": "2015-09-14 13:44:54",
+            "date_last_updated": "2015-09-14 21:49:14",
+            "deck": null,
+            "description": "<p>Trade paperback collecting <a href=\"/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a> #6-10.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-500328/",
+                "id": 500328,
+                "name": "Volume Two",
+                "issue_number": "1"
+            },
+            "id": 84574,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/4801994-02.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/4801994-02.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/4801994-02.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/4801994-02.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/4801994-02.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/4801994-02.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/4801994-02.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/4801994-02.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/4801994-02.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-500328/",
+                "id": 500328,
+                "name": "Volume Two",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Call To Adventure",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-call-to-adventure/4050-84574/",
+            "start_year": "2015"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-86362/",
+            "count_of_issues": 1,
+            "date_added": "2015-11-30 21:27:37",
+            "date_last_updated": "2015-11-30 22:07:36",
+            "deck": null,
+            "description": "<p>Value priced reprint of <a href=\"/birthright-1/4000-467608/\" data-ref-id=\"4000-467608\">Birthright #1</a>.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-507230/",
+                "id": 507230,
+                "name": null,
+                "issue_number": "1"
+            },
+            "id": 86362,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/4934553-01.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/4934553-01.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/4934553-01.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/4934553-01.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/4934553-01.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/4934553-01.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/4934553-01.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/4934553-01.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/4934553-01.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-507230/",
+                "id": 507230,
+                "name": null,
+                "issue_number": "1"
+            },
+            "name": "Image Firsts: Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/image-firsts-birthright/4050-86362/",
+            "start_year": "2015"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-90399/",
+            "count_of_issues": 1,
+            "date_added": "2016-05-09 23:00:43",
+            "date_last_updated": "2016-05-09 23:27:23",
+            "deck": null,
+            "description": "<p>Trade paperback collecting <a href=\"/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a> #11-15.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-529674/",
+                "id": 529674,
+                "name": "Volume Three",
+                "issue_number": "1"
+            },
+            "id": 90399,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/5199893-03.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/5199893-03.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/5199893-03.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/5199893-03.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/5199893-03.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/5199893-03.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/5199893-03.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/5199893-03.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/5199893-03.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-529674/",
+                "id": 529674,
+                "name": "Volume Three",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Allies and Enemies",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-allies-and-enemies/4050-90399/",
+            "start_year": "2016"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-91643/",
+            "count_of_issues": 7,
+            "date_added": "2016-06-19 22:29:52",
+            "date_last_updated": "2019-09-12 23:32:11",
+            "deck": null,
+            "description": "<p>French translation of <a href=\"https://comicvine.gamespot.com/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a>.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-536705/",
+                "id": 536705,
+                "name": "Le Retour",
+                "issue_number": "1"
+            },
+            "id": 91643,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/5276667-01.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/5276667-01.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/5276667-01.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/5276667-01.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/5276667-01.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/5276667-01.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/5276667-01.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/5276667-01.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/5276667-01.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-718912/",
+                "id": 718912,
+                "name": "Fr\u00e8res de sang",
+                "issue_number": "7"
+            },
+            "name": "Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2923/",
+                "id": 2923,
+                "name": "Delcourt"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright/4050-91643/",
+            "start_year": "2015"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-96650/",
+            "count_of_issues": 1,
+            "date_added": "2016-12-12 23:55:24",
+            "date_last_updated": "2016-12-13 01:01:53",
+            "deck": null,
+            "description": "<p>Trade paperback collecting <a href=\"https://comicvine.gamespot.com/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a> #16-20.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-566737/",
+                "id": 566737,
+                "name": "Volume Four",
+                "issue_number": "1"
+            },
+            "id": 96650,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/5586789-04.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/5586789-04.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/5586789-04.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/5586789-04.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/5586789-04.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/5586789-04.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/5586789-04.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/5586789-04.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/5586789-04.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-566737/",
+                "id": 566737,
+                "name": "Volume Four",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Family History",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-family-history/4050-96650/",
+            "start_year": "2016"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-102741/",
+            "count_of_issues": 1,
+            "date_added": "2017-07-11 05:42:50",
+            "date_last_updated": "2017-07-11 05:55:55",
+            "deck": null,
+            "description": "<p>Trade paperback collecting <a href=\"https://comicvine.gamespot.com/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a> #21-25.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-608207/",
+                "id": 608207,
+                "name": "Volume Five",
+                "issue_number": "1"
+            },
+            "id": 102741,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/5949053-05.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/5949053-05.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/5949053-05.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/5949053-05.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/5949053-05.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/5949053-05.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/5949053-05.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/5949053-05.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/5949053-05.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-608207/",
+                "id": 608207,
+                "name": "Volume Five",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Belly of the Beast",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-belly-of-the-beast/4050-102741/",
+            "start_year": "2017"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-109596/",
+            "count_of_issues": 1,
+            "date_added": "2018-04-03 11:54:08",
+            "date_last_updated": "2018-04-03 23:33:30",
+            "deck": null,
+            "description": "<p>Trade paperback collecting <a href=\"/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a> #26-30.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-664942/",
+                "id": 664942,
+                "name": "Volume Six",
+                "issue_number": "1"
+            },
+            "id": 109596,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/6364031-06.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/6364031-06.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/6364031-06.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/6364031-06.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/6364031-06.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/6364031-06.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/6364031-06.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/6364031-06.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/6364031-06.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-664942/",
+                "id": 664942,
+                "name": "Volume Six",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Fatherhood",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-fatherhood/4050-109596/",
+            "start_year": "2018"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-117048/",
+            "count_of_issues": 1,
+            "date_added": "2019-02-12 01:44:01",
+            "date_last_updated": "2019-02-12 02:30:57",
+            "deck": " ",
+            "description": "<p>Trade paperback collecting <a href=\"/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a> #31-35.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-700548/",
+                "id": 700548,
+                "name": "Volume Seven",
+                "issue_number": "1"
+            },
+            "id": 117048,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/6797679-07.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/6797679-07.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/6797679-07.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/6797679-07.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/6797679-07.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/6797679-07.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/6797679-07.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/6797679-07.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/6797679-07.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-700548/",
+                "id": 700548,
+                "name": "Volume Seven",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Blood Brothers",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-blood-brothers/4050-117048/",
+            "start_year": "2019"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-123248/",
+            "count_of_issues": 1,
+            "date_added": "2019-12-04 14:33:00",
+            "date_last_updated": "2019-12-04 14:34:20",
+            "deck": " ",
+            "description": "<p>Trade paperback collecting <a href=\"/birthright/4050-77405/\" data-ref-id=\"4050-77405\">Birthright</a> #36-40.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-729548/",
+                "id": 729548,
+                "name": "Volume Eight",
+                "issue_number": "1"
+            },
+            "id": 123248,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/7168467-08.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/7168467-08.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/7168467-08.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/7168467-08.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/7168467-08.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/7168467-08.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/7168467-08.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/7168467-08.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/7168467-08.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-729548/",
+                "id": 729548,
+                "name": "Volume Eight",
+                "issue_number": "1"
+            },
+            "name": "Birthright: Live By The Sword",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2861/",
+                "id": 2861,
+                "name": "Skybound"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright-live-by-the-sword/4050-123248/",
+            "start_year": "2019"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-123495/",
+            "count_of_issues": 1,
+            "date_added": "2019-12-14 19:05:24",
+            "date_last_updated": "2019-12-14 19:16:10",
+            "deck": "Digital Exclusive.",
+            "description": "<p>English translation of the Japanese manga.</p>",
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-730649/",
+                "id": 730649,
+                "name": null,
+                "issue_number": "1"
+            },
+            "id": 123495,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/6/67663/7178490-01.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/6/67663/7178490-01.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/6/67663/7178490-01.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/6/67663/7178490-01.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/6/67663/7178490-01.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/6/67663/7178490-01.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/6/67663/7178490-01.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/6/67663/7178490-01.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/6/67663/7178490-01.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-730649/",
+                "id": 730649,
+                "name": null,
+                "issue_number": "1"
+            },
+            "name": "Claiming Her Billion-Dollar Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-4411/",
+                "id": 4411,
+                "name": "Harlequin Comics"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/claiming-her-billion-dollar-birthright/4050-123495/",
+            "start_year": "2019"
+        },
+        {
+            "aliases": null,
+            "api_detail_url": "https://comicvine.gamespot.com/api/volume/4050-127220/",
+            "count_of_issues": 5,
+            "date_added": "2020-05-24 23:16:35",
+            "date_last_updated": "2020-05-24 23:17:01",
+            "deck": " ",
+            "description": null,
+            "first_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-762876/",
+                "id": 762876,
+                "name": "Heimkehr",
+                "issue_number": "1"
+            },
+            "id": 127220,
+            "image": {
+                "icon_url": "https://comicvine1.cbsistatic.com/uploads/square_avatar/11116/111168846/7390437-birthright_01__000001.jpg",
+                "medium_url": "https://comicvine1.cbsistatic.com/uploads/scale_medium/11116/111168846/7390437-birthright_01__000001.jpg",
+                "screen_url": "https://comicvine1.cbsistatic.com/uploads/screen_medium/11116/111168846/7390437-birthright_01__000001.jpg",
+                "screen_large_url": "https://comicvine1.cbsistatic.com/uploads/screen_kubrick/11116/111168846/7390437-birthright_01__000001.jpg",
+                "small_url": "https://comicvine1.cbsistatic.com/uploads/scale_small/11116/111168846/7390437-birthright_01__000001.jpg",
+                "super_url": "https://comicvine1.cbsistatic.com/uploads/scale_large/11116/111168846/7390437-birthright_01__000001.jpg",
+                "thumb_url": "https://comicvine1.cbsistatic.com/uploads/scale_avatar/11116/111168846/7390437-birthright_01__000001.jpg",
+                "tiny_url": "https://comicvine1.cbsistatic.com/uploads/square_mini/11116/111168846/7390437-birthright_01__000001.jpg",
+                "original_url": "https://comicvine1.cbsistatic.com/uploads/original/11116/111168846/7390437-birthright_01__000001.jpg",
+                "image_tags": "All Images"
+            },
+            "last_issue": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/issue/4000-762881/",
+                "id": 762881,
+                "name": "In der H\u00f6hle des L\u00f6wen",
+                "issue_number": "5"
+            },
+            "name": "Birthright",
+            "publisher": {
+                "api_detail_url": "https://comicvine.gamespot.com/api/publisher/4010-2855/",
+                "id": 2855,
+                "name": "Cross Cult"
+            },
+            "site_detail_url": "https://comicvine.gamespot.com/birthright/4050-127220/",
+            "start_year": "2015"
+        }
+    ],
+    "version": "1.0"
+}
