@@ -24,13 +24,13 @@ namespace CVNetCore.Json
             }
 
             issue.Image = image;
-            issue.IssueNumber = jsonObject["issue_number"]?.ToString();
+            issue.IssueNumber = StringUtilities.TryToParseFloat(jsonObject["issue_number"]?.ToString());
             issue.Name = jsonObject["name"]?.ToString();
 
             string coverDate = jsonObject["cover_date"]?.ToString();
 
-            issue.issueYear = StringUtilities.TryToExtractYear(coverDate);
-            issue.issueMonth = StringUtilities.TryToExtractMonth(coverDate);
+            issue.issueYear = StringUtilities.ExtractYear(coverDate);
+            issue.issueMonth = StringUtilities.ExtractMonth(coverDate);
             issue.Name = jsonObject["name"]?.ToString();
 
             Volume volume = new Volume();

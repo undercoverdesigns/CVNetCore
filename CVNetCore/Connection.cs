@@ -9,6 +9,11 @@ namespace CVNetCore
     {
         #region Methods
 
+        /// <summary>
+        /// Connect to the ComicVine API and retrieve the results of a query based on an Issue
+        /// </summary>
+        /// <param name="url">URL to the Issue object within the API</param>
+        /// <returns>IssueQuery object populated with search results</returns>
         public static IssueQuery ConnectAndRequestIssue(string url)
         {
             IssueQuery result = new IssueQuery();
@@ -20,7 +25,12 @@ namespace CVNetCore
             return JsonConvert.DeserializeObject<IssueQuery>(streamReader.ReadToEnd());
         }
 
-        public static VolumeQuery ConnectAndRequestIssuesByVolume(string url)
+        /// <summary>
+        /// Connect to the ComicVine API and retrieve the details for a Volume
+        /// </summary>
+        /// <param name="url">URL to the Volume object within the API</param>
+        /// <returns>VolumeQuery object populated with details of Volume</returns>
+        public static VolumeQuery ConnectAndRequestVolumeDetails(string url)
         {
             VolumeQuery result = new VolumeQuery();
 
@@ -31,7 +41,12 @@ namespace CVNetCore
             return JsonConvert.DeserializeObject<VolumeQuery>(streamReader.ReadToEnd());
         }
 
-        public static VolumeSearchQuery ConnectAndRequestVolume(string url)
+        /// <summary>
+        /// Connect to the ComicVine API and retrieve a list of Volume object
+        /// </summary>
+        /// <param name="url">URL to the Volume search within the API</param>
+        /// <returns>VolumeSearchQuery object populated with Volumes matching a given query</returns>
+        public static VolumeSearchQuery ConnectAndRequestVolumeSearch(string url)
         {
             VolumeSearchQuery result = new VolumeSearchQuery();
 

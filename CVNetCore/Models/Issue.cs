@@ -73,7 +73,7 @@ namespace CVNetCore.Models
         public Image Image { get; set; }
 
         [JsonProperty("issue_number")]
-        public string IssueNumber { get; set; }
+        public float IssueNumber { get; set; }
 
         [JsonProperty("location_credits")]
         public IList<Credit> LocationCredits { get; set; }

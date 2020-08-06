@@ -27,6 +27,11 @@ namespace CVNetCore
 
         #region Methods
 
+        /// <summary>
+        /// Retrieves data for a specific Issue
+        /// </summary>
+        /// <param name="issueId">ID of the Issue to retrieve</param>
+        /// <returns>Issue object populated with data for the Issue indicated by the ID</returns>
         public Issue GetIssue(int issueId)
         {
             string query = null;
@@ -38,6 +43,12 @@ namespace CVNetCore
             return issueQuery.Issue;
         }
 
+        /// <summary>
+        /// Retrieves data for a specific Issue
+        /// </summary>
+        /// <param name="volumeId">ID of the Volume in which the Issue resides</param>
+        /// <param name="issueNumber">Number of the Issue for which the retrieval is to be done</param>
+        /// <returns>Issue object populated with data for the Issue indicated by the Volume ID and Issue Number</returns>
         public Issue GetIssue(int volumeId, int issueNumber)
         {
             string query =
@@ -48,25 +59,40 @@ namespace CVNetCore
             return issueQuery.Issue;
         }
 
+        /// <summary>
+        /// Retrieve a list of Issues contained within a Volume
+        /// </summary>
+        /// <param name="volumeId">ID of the Volume for which the list of Issues is to be returned</param>
+        /// <returns>List containing Issue objects for the given Volume ID</returns>
         public List<Issue> GetIssuesByVolume(int volumeId)
         {
             string query = $"{_comicVineAddress}volume/4050-{volumeId}/?api_key={_apiKey}&format=json";
 
-            VolumeQuery volumeQuery = Connection.ConnectAndRequestIssuesByVolume(query);
+            VolumeQuery volumeQuery = Connection.ConnectAndRequestVolumeDetails(query);
 
             return volumeQuery.Volume.Issues as List<Issue>;
         }
 
+        /// <summary>
+        /// Retrieve details regarding a Volume
+        /// </summary>
+        /// <param name="volumeId">ID of the Volume to retrieve</param>
+        /// <returns>Volume object populated with details of Volume indicated by the passed ID</returns>
         public Volume GetVolumeDetails(int volumeId)
         {
             string query = $"{_comicVineAddress}volume/4050-{volumeId}/?api_key={_apiKey}&format=json";
 
-            VolumeQuery volumeQuery = Connection.ConnectAndRequestIssuesByVolume(query);
+            VolumeQuery volumeQuery = Connection.ConnectAndRequestVolumeDetails(query);
 
             return volumeQuery.Volume;
         }
 
-        public List<Volume> GetVolumesByName(string volumeName)
+        /// <summary>
+        /// Retrieve a list of volumes containing a search term
+        /// </summary>
+        /// <param name="searchTerm">Term for which to search the Volume set</param>
+        /// <returns>List of Volumes containing the search term in their Name field</returns>
+        public List<Volume> GetVolumesByName(string searchTerm)
         {
             List<Volume> result = new List<Volume>();
 
@@ -76,9 +102,9 @@ namespace CVNetCore
             do
             {
                 string query =
-                    $"{_comicVineAddress}volumes/?api_key={_apiKey}&format=json&filter=name:{volumeName}&offset={offset}";
+                    $"{_comicVineAddress}volumes/?api_key={_apiKey}&format=json&filter=name:{searchTerm}&offset={offset}";
 
-                VolumeSearchQuery searchQueryResult = Connection.ConnectAndRequestVolume(query);
+                VolumeSearchQuery searchQueryResult = Connection.ConnectAndRequestVolumeSearch(query);
 
                 if (searchQueryResult.StatusCode != 1)
                 {
