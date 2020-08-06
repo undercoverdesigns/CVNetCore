@@ -7,32 +7,42 @@ namespace CVNetCore.Utility
         #region Methods
 
         /// <summary>
-        /// Extract the Month information from a ComicVine Date field
+        ///     Extract the Month information from a ComicVine Date field
         /// </summary>
         /// <param name="date">Date field to parse</param>
-        /// <returns>The Month extracted from the Date field</returns>
+        /// <returns>The Month extracted from the Date field if parsed successfully, -1 if parsing failed,</returns>
         public static int ExtractMonth(string date)
         {
-            string month = string.Empty;
-
             if (date.IndexOf("-", StringComparison.Ordinal) <= 0)
             {
-                return TryToParse(month);
+                return -1;
             }
 
-            month = date.Substring(date.IndexOf("-", StringComparison.Ordinal) + 1,
+            string month = date.Substring(date.IndexOf("-", StringComparison.Ordinal) + 1,
                 date.Length - date.IndexOf("-", StringComparison.Ordinal) - 1);
 
             if (month.IndexOf("-", StringComparison.Ordinal) > 0)
             {
                 month = month.Substring(0, month.IndexOf("-", StringComparison.Ordinal));
             }
+            else
+            {
+                return -1;
+            }
 
-            return TryToParse(month);
+            int result = TryToParse(month);
+            
+            // Sanity Check
+            if (result < 1 || result > 12)
+            {
+                return -1;
+            }
+
+            return result;
         }
 
         /// <summary>
-        /// Extract the Year information from a ComicVine Date field
+        ///     Extract the Year information from a ComicVine Date field
         /// </summary>
         /// <param name="date">Date field to parse</param>
         /// <returns>The Year extracted from the Date field</returns>
@@ -49,7 +59,7 @@ namespace CVNetCore.Utility
         }
 
         /// <summary>
-        /// Attempt to parse a ComicVine string field to an integer
+        ///     Attempt to parse a ComicVine string field to an integer
         /// </summary>
         /// <param name="value">String to parse</param>
         /// <returns>Value of the field if parsing successful, -1 if it failed</returns>
@@ -66,7 +76,7 @@ namespace CVNetCore.Utility
         }
 
         /// <summary>
-        /// Attempt to parse a ComicVine field into a float value
+        ///     Attempt to parse a ComicVine field into a float value
         /// </summary>
         /// <param name="value">String to parse</param>
         /// <returns>Value of the field if parsing successful, -1 if it failed</returns>
@@ -78,7 +88,7 @@ namespace CVNetCore.Utility
             {
                 return number;
             }
-        
+
             return -1;
         }
 
