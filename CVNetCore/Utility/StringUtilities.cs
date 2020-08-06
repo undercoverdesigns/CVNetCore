@@ -31,7 +31,7 @@ namespace CVNetCore.Utility
             }
 
             int result = TryToParse(month);
-            
+
             // Sanity Check
             if (result < 1 || result > 12)
             {

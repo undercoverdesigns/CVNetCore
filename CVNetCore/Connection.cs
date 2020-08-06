@@ -10,7 +10,7 @@ namespace CVNetCore
         #region Methods
 
         /// <summary>
-        /// Connect to the ComicVine API and retrieve the results of a query based on an Issue
+        ///     Connect to the ComicVine API and retrieve the results of a query based on an Issue
         /// </summary>
         /// <param name="url">URL to the Issue object within the API</param>
         /// <returns>IssueQuery object populated with search results</returns>
@@ -26,7 +26,7 @@ namespace CVNetCore
         }
 
         /// <summary>
-        /// Connect to the ComicVine API and retrieve the details for a Volume
+        ///     Connect to the ComicVine API and retrieve the details for a Volume
         /// </summary>
         /// <param name="url">URL to the Volume object within the API</param>
         /// <returns>VolumeQuery object populated with details of Volume</returns>
@@ -42,7 +42,7 @@ namespace CVNetCore
         }
 
         /// <summary>
-        /// Connect to the ComicVine API and retrieve a list of Volume object
+        ///     Connect to the ComicVine API and retrieve a list of Volume object
         /// </summary>
         /// <param name="url">URL to the Volume search within the API</param>
         /// <returns>VolumeSearchQuery object populated with Volumes matching a given query</returns>

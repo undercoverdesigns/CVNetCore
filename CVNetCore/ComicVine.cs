@@ -28,7 +28,7 @@ namespace CVNetCore
         #region Methods
 
         /// <summary>
-        /// Retrieves data for a specific Issue
+        ///     Retrieves data for a specific Issue
         /// </summary>
         /// <param name="issueId">ID of the Issue to retrieve</param>
         /// <returns>Issue object populated with data for the Issue indicated by the ID</returns>
@@ -44,7 +44,7 @@ namespace CVNetCore
         }
 
         /// <summary>
-        /// Retrieves data for a specific Issue
+        ///     Retrieves data for a specific Issue
         /// </summary>
         /// <param name="volumeId">ID of the Volume in which the Issue resides</param>
         /// <param name="issueNumber">Number of the Issue for which the retrieval is to be done</param>
@@ -60,7 +60,7 @@ namespace CVNetCore
         }
 
         /// <summary>
-        /// Retrieve a list of Issues contained within a Volume
+        ///     Retrieve a list of Issues contained within a Volume
         /// </summary>
         /// <param name="volumeId">ID of the Volume for which the list of Issues is to be returned</param>
         /// <returns>List containing Issue objects for the given Volume ID</returns>
@@ -74,7 +74,7 @@ namespace CVNetCore
         }
 
         /// <summary>
-        /// Retrieve details regarding a Volume
+        ///     Retrieve details regarding a Volume
         /// </summary>
         /// <param name="volumeId">ID of the Volume to retrieve</param>
         /// <returns>Volume object populated with details of Volume indicated by the passed ID</returns>
@@ -88,7 +88,7 @@ namespace CVNetCore
         }
 
         /// <summary>
-        /// Retrieve a list of volumes containing a search term
+        ///     Retrieve a list of volumes containing a search term
         /// </summary>
         /// <param name="searchTerm">Term for which to search the Volume set</param>
         /// <returns>List of Volumes containing the search term in their Name field</returns>
