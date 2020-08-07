@@ -1,5 +1,6 @@
 #nullable enable
 using System.Collections.Generic;
+using CVNetCore.Utility;
 using Newtonsoft.Json;
 
 namespace CVNetCore.Models
@@ -8,9 +9,8 @@ namespace CVNetCore.Models
     {
         #region Fields
 
-        public int issueMonth;
-        public int issueDay;
-        public int issueYear;
+        public int IssueMonth => StringUtilities.ExtractMonth(CoverDate);
+        public int IssueYear  => StringUtilities.ExtractYear(CoverDate);
 
         #endregion
 
@@ -30,6 +30,9 @@ namespace CVNetCore.Models
 
         [JsonProperty("concept_credits")]
         public IList<Credit>? ConceptCredits { get; set; }
+        
+        [JsonProperty("cover_date")]
+        public string? CoverDate { get; set; }
 
         [JsonProperty("date_added")]
         public string? DateAdded { get; set; }
@@ -61,8 +64,8 @@ namespace CVNetCore.Models
         [JsonProperty("first_appearance_teams")]
         public IList<Credit>? FirstAppearanceTeams { get; set; }
 
-        [JsonProperty("has_staff_review")]
-        public HasStaffReview? HasStaffReview { get; set; }
+        // [JsonProperty("has_staff_review")]
+        // public HasStaffReview? HasStaffReview { get; set; }
 
         [JsonProperty("id")]
         public int? Id { get; set; }
