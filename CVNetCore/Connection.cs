@@ -9,6 +9,17 @@ namespace CVNetCore
     {
         #region Methods
 
+        private static string Sanitize(string contents)
+        {
+            string result = contents;
+
+            result = result.Replace(@"\u00bc", "0.25");
+            result = result.Replace(@"\u00bd", "0.5");
+            result = result.Replace(@"\u00b3", "0.75");
+
+            return result;
+        }
+
         /// <summary>
         ///     Connect to the ComicVine API and retrieve the results of a query based on an Issue
         /// </summary>
@@ -22,7 +33,7 @@ namespace CVNetCore
 
             using WebResponse webResponse = httpWebRequest.GetResponse();
             using StreamReader streamReader = new StreamReader(webResponse.GetResponseStream()!);
-            return JsonConvert.DeserializeObject<IssueQuery>(streamReader.ReadToEnd());
+            return JsonConvert.DeserializeObject<IssueQuery>(Sanitize(streamReader.ReadToEnd()));
         }
 
         /// <summary>
@@ -38,7 +49,7 @@ namespace CVNetCore
 
             using WebResponse webResponse = httpWebRequest.GetResponse();
             using StreamReader streamReader = new StreamReader(webResponse.GetResponseStream()!);
-            return JsonConvert.DeserializeObject<VolumeQuery>(streamReader.ReadToEnd());
+            return JsonConvert.DeserializeObject<VolumeQuery>(Sanitize(streamReader.ReadToEnd()));
         }
 
         /// <summary>
@@ -54,7 +65,7 @@ namespace CVNetCore
 
             using WebResponse webResponse = httpWebRequest.GetResponse();
             using StreamReader streamReader = new StreamReader(webResponse.GetResponseStream()!);
-            return JsonConvert.DeserializeObject<VolumeSearchQuery>(streamReader.ReadToEnd());
+            return JsonConvert.DeserializeObject<VolumeSearchQuery>(Sanitize(streamReader.ReadToEnd()));
         }
 
         #endregion

@@ -58,13 +58,13 @@ namespace CVNetCoreTests
         [Test]
         public void TestParseVolumeCharacters()
         {
-            Assert.AreEqual(13, _volume?.Characters.Count);
+            Assert.AreEqual(13, _volume?.Characters?.Count);
         }
 
         [Test]
         public void TestParseVolumeConcepts()
         {
-            Assert.AreEqual(6, _volume?.Concepts.Count);
+            Assert.AreEqual(6, _volume?.Concepts?.Count);
         }
 
         [Test]
@@ -102,8 +102,8 @@ namespace CVNetCoreTests
         [Test]
         public void TestParseVolumeFirstIssue()
         {
-            Assert.AreEqual(467608, _volume?.FirstIssue.Id);
-            Assert.AreEqual(1, _volume?.FirstIssue.IssueNumber);
+            Assert.AreEqual(467608, _volume?.FirstIssue?.Id);
+            Assert.AreEqual(1, _volume?.FirstIssue?.IssueNumber);
         }
 
         [Test]
@@ -115,20 +115,20 @@ namespace CVNetCoreTests
         [Test]
         public void TestParseVolumeIssues()
         {
-            Assert.AreEqual(45, _volume?.Issues.Count);
+            Assert.AreEqual(45, _volume?.Issues?.Count);
         }
 
         [Test]
         public void TestParseVolumeLastIssue()
         {
-            Assert.AreEqual(781655, _volume?.LastIssue.Id);
-            Assert.AreEqual(45, _volume?.LastIssue.IssueNumber);
+            Assert.AreEqual(781655, _volume?.LastIssue?.Id);
+            Assert.AreEqual(45, _volume?.LastIssue?.IssueNumber);
         }
 
         [Test]
         public void TestParseVolumeLocations()
         {
-            Assert.AreEqual(2, _volume?.Locations.Count);
+            Assert.AreEqual(2, _volume?.Locations?.Count);
         }
 
         [Test]
@@ -140,27 +140,27 @@ namespace CVNetCoreTests
         [Test]
         public void TestParseVolumeObjects()
         {
-            Assert.AreEqual(13, _volume?.Objects.Count);
+            Assert.AreEqual(13, _volume?.Objects?.Count);
         }
 
         [Test]
         public void TestParseVolumePeople()
         {
-            Assert.AreEqual(22, _volume?.People.Count);
+            Assert.AreEqual(22, _volume?.People?.Count);
         }
 
         [Test]
         public void TestParseVolumePublisher()
         {
-            Assert.AreEqual("Skybound", _volume?.Publisher.Name);
-            Assert.AreEqual(2861, _volume?.Publisher.Id);
+            Assert.AreEqual("Skybound", _volume?.Publisher?.Name);
+            Assert.AreEqual(2861, _volume?.Publisher?.Id);
         }
 
         [Test]
         public void TestParseVolumeSearchTotalResults()
         {
-            Assert.AreEqual(18, _volumeSearchQuery.NumberOfTotalResults);
-            Assert.AreEqual(18, _volumeSearchQuery.Results.Count);
+            Assert.AreEqual(18, _volumeSearchQuery?.NumberOfTotalResults);
+            Assert.AreEqual(18, _volumeSearchQuery?.Results.Count);
         }
 
         [Test]

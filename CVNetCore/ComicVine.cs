@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Web;
 using CVNetCore.Constants;
 using CVNetCore.Models;
 
@@ -102,7 +103,7 @@ namespace CVNetCore
             do
             {
                 string query =
-                    $"{_comicVineAddress}volumes/?api_key={_apiKey}&format=json&filter=name:{searchTerm}&offset={offset}";
+                    $"{_comicVineAddress}volumes/?api_key={_apiKey}&format=json&filter=name:{HttpUtility.UrlEncode(searchTerm)}&offset={offset}";
 
                 VolumeSearchQuery searchQueryResult = Connection.ConnectAndRequestVolumeSearch(query);
 
