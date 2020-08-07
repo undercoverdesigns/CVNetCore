@@ -2,7 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/saintedlama/versionize) for commit guidelines.
 
-<a name="1.0.0"></a>
+<a name="1.0.1"></a>
+## 1.0.1 (2020-8-7)
+
+### Bug Fixes
+
+* Address null/nullable issues with Volume, FirstIssue, LastIssue
+* UrlEncode volume search term
+* Add sanitizing code for changing fraction characters to decimals
+
 ## 1.0.0 (2020-8-6)
 
 ### Bug Fixes
