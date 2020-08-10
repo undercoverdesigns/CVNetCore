@@ -29,7 +29,7 @@ namespace CVNetCore.Models
         public int StatusCode { get; set; }
 
         [JsonProperty("results")]
-        public IList<Volume> Results { get; set; }
+        public IList<CVVolume> Results { get; set; }
 
         [JsonProperty("version")]
         public string Version { get; set; }

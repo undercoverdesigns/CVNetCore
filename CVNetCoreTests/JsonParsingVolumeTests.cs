@@ -18,7 +18,7 @@ namespace CVNetCoreTests
             _volumeSearchResults = GetFileContents("volume.search.json");
             _volumeDetailsQueryResult = GetFileContents("volume.details.json");
 
-            _volume = JsonConvert.DeserializeObject<VolumeQuery>(_volumeDetailsQueryResult).Volume;
+            _volume = JsonConvert.DeserializeObject<VolumeQuery>(_volumeDetailsQueryResult).CvVolume;
             _volumeSearchQuery = JsonConvert.DeserializeObject<VolumeSearchQuery>(_volumeSearchResults);
         }
 
@@ -27,7 +27,7 @@ namespace CVNetCoreTests
         private string _volumeSearchResults = null!;
         private string _volumeDetailsQueryResult = null!;
 
-        private Volume? _volume;
+        private CVVolume? _volume;
         private VolumeSearchQuery? _volumeSearchQuery;
 
         private static string GetFileContents(string sampleFile)

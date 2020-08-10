@@ -4,7 +4,7 @@ using Newtonsoft.Json;
 
 namespace CVNetCore.Models
 {
-    public class Volume
+    public class CVVolume
     {
         #region Properties
 
@@ -30,43 +30,43 @@ namespace CVNetCore.Models
         public string? Description { get; set; }
 
         [JsonProperty("first_issue")]
-        public FirstIssue? FirstIssue { get; set; }
+        public CVFirstIssue? FirstIssue { get; set; }
 
         [JsonProperty("id")]
         public int? Id { get; set; }
 
         [JsonProperty("image")]
-        public Image? Image { get; set; }
+        public CVImage? Image { get; set; }
 
         [JsonProperty("last_issue")]
-        public LastIssue? LastIssue { get; set; }
+        public CVLastIssue? LastIssue { get; set; }
 
         [JsonProperty("name")]
         public string? Name { get; set; }
 
         [JsonProperty("publisher")]
-        public Publisher? Publisher { get; set; }
+        public CVPublisher? Publisher { get; set; }
 
         [JsonProperty("site_detail_url")]
         public string? SiteDetailUrl { get; set; }
 
         [JsonProperty("characters")]
-        public IList<Credit>? Characters { get; set; }
+        public IList<CVCredit>? Characters { get; set; }
 
         [JsonProperty("concepts")]
-        public IList<Credit>? Concepts { get; set; }
+        public IList<CVCredit>? Concepts { get; set; }
 
         [JsonProperty("issues")]
         public IList<Issue>? Issues { get; set; }
 
         [JsonProperty("locations")]
-        public IList<Credit>? Locations { get; set; }
+        public IList<CVCredit>? Locations { get; set; }
 
         [JsonProperty("objects")]
-        public IList<Credit>? Objects { get; set; }
+        public IList<CVCredit>? Objects { get; set; }
 
         [JsonProperty("people")]
-        public IList<Credit>? People { get; set; }
+        public IList<CVCredit>? People { get; set; }
 
         [JsonProperty("start_year")]
         public int? StartYear { get; set; }
