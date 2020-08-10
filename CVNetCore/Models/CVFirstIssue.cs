@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace CVNetCore.Models
 {
-    public class FirstIssue
+    public class CVFirstIssue
     {
         #region Properties
 

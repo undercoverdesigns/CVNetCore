@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace CVNetCore.Models
 {
-    public class LastIssue
+    public class CVHasStaffReview
     {
         #region Properties
 
@@ -15,8 +15,8 @@ namespace CVNetCore.Models
         [JsonProperty("name")]
         public string Name { get; set; }
 
-        [JsonProperty("issue_number")]
-        public float? IssueNumber { get; set; }
+        [JsonProperty("site_detail_url")]
+        public string SiteDetailUrl { get; set; }
 
         #endregion
     }

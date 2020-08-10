@@ -71,7 +71,7 @@ namespace CVNetCore
 
             VolumeQuery volumeQuery = Connection.ConnectAndRequestVolumeDetails(query);
 
-            return volumeQuery.Volume.Issues as List<Issue>;
+            return volumeQuery.CvVolume.Issues as List<Issue>;
         }
 
         /// <summary>
@@ -79,13 +79,13 @@ namespace CVNetCore
         /// </summary>
         /// <param name="volumeId">ID of the Volume to retrieve</param>
         /// <returns>Volume object populated with details of Volume indicated by the passed ID</returns>
-        public Volume GetVolumeDetails(int volumeId)
+        public CVVolume GetVolumeDetails(int volumeId)
         {
             string query = $"{_comicVineAddress}volume/4050-{volumeId}/?api_key={_apiKey}&format=json";
 
             VolumeQuery volumeQuery = Connection.ConnectAndRequestVolumeDetails(query);
 
-            return volumeQuery.Volume;
+            return volumeQuery.CvVolume;
         }
 
         /// <summary>
@@ -93,9 +93,9 @@ namespace CVNetCore
         /// </summary>
         /// <param name="searchTerm">Term for which to search the Volume set</param>
         /// <returns>List of Volumes containing the search term in their Name field</returns>
-        public List<Volume> GetVolumesByName(string searchTerm)
+        public List<CVVolume> GetVolumesByName(string searchTerm)
         {
-            List<Volume> result = new List<Volume>();
+            List<CVVolume> result = new List<CVVolume>();
 
             int offset = 0;
             int resultsThisIteration = 0;

@@ -28,7 +28,7 @@ namespace CVNetCore.Models
         public int StatusCode { get; set; }
 
         [JsonProperty("results")]
-        public Volume Volume { get; set; }
+        public CVVolume CvVolume { get; set; }
 
         [JsonProperty("version")]
         public string Version { get; set; }

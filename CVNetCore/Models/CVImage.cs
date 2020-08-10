@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace CVNetCore.Models
 {
-    public class Image
+    public class CVImage
     {
         #region Properties
 

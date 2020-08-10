@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace CVNetCore.Models
 {
-    public class Publisher
+    public class CVPublisher
     {
         #region Properties
 

@@ -2,7 +2,7 @@ using Newtonsoft.Json;
 
 namespace CVNetCore.Models
 {
-    public class Credit
+    public class CVCredit
     {
         #region Properties
 
