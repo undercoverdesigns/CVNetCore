@@ -8,7 +8,7 @@
     <Description>.NET Core library for accessing the ComicVine API</Description>
     <Copyright>(C) 2020 Undercover Designs</Copyright>
     <PackageLicenseUrl>https://choosealicense.com/licenses/gpl-3.0/</PackageLicenseUrl>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <RepositoryUrl>https://github.com/undercoverdesigns/CVNetCore</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
   </PropertyGroup>

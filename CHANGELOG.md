@@ -2,7 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/saintedlama/versionize) for commit guidelines.
 
-<a name="1.0.2"></a>
+<a name="1.0.3"></a>
+## 1.0.3 (2020-8-10)
+
+### Bug Fixes
+
+* Add CV prefix to types to clarify objects for users
+
 ## 1.0.2 (2020-8-7)
 
 ### Bug Fixes
